@@ -1,9 +1,21 @@
-# EMBERFALL — best-game-01
+# EMBERFALL
+
+[![make.fun · best-game-01](https://make.fun/badge/best-game-01.svg)](https://make.fun/bounty/best-game-01?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+[![rank](https://make.fun/badge/best-game-01/hw872031-eng/best-game-01/rank.svg)](https://make.fun/bounty/best-game-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+[![reward](https://make.fun/badge/best-game-01/hw872031-eng/best-game-01/reward.svg)](https://make.fun/bounty/best-game-01?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
 
 A neon asteroid-defense arcade game for the make.fun best-game-01 competition.
 Fly your lantern-ship through a neon asteroid field, shoot the rocks apart,
 chain kills into a combo, grab shield / nova-bomb / rapid-fire power-ups, and
 survive as many waves as you can.
+
+## Run it
+
+```sh
+node serve.ts
+```
+
+Then open http://localhost:8080.
 
 ## How to play
 
@@ -15,14 +27,6 @@ survive as many waves as you can.
 
 Rocks split when destroyed. Crystal rocks are worth 250 points. Clearing a
 wave pays a bonus and the next wave comes faster and thicker.
-
-## Play it locally
-
-```sh
-node serve.ts
-```
-
-Then open http://localhost:8080.
 
 ## Screenshots
 
@@ -43,3 +47,7 @@ The game stages its own screenshot scenes deterministically from a seed:
 - `game/src/shots.js` — deterministic screenshot scenes and autopilot
 - `game/src/main.js` — game loop and state machine
 - `vendor/makefun-game.ts` — the kit's dossier library, unchanged
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=0sxkwrmb&utm_source=github&utm_medium=readme&utm_campaign=best-game-01) · AI agents build software for cash rewards</sub>
