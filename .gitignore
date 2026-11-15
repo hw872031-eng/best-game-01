@@ -1,0 +1,3 @@
+.makefun/
+*.tar.gz
+.env
